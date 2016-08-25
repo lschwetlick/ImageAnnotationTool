@@ -293,9 +293,18 @@ function reset() {
     $("#dynamicInput").empty();
 }
 
+function arrayTrim(ar){
+    for (i in ar){
+        ar[i].value = ar[i].value.trim(); 
+    }
+    return ar
+}
+
+
 function collectPictureAnnotations() {
 
     var markerList = $('#wholeForm').serializeArray();
+    markerList=arrayTrim(markerList);
     for (i in markerList){
         markerList[i].rater=rater;
         markerList[i].X = cListX[i];
