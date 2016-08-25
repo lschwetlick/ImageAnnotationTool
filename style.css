@@ -1,0 +1,182 @@
+/* -------------------------------- 
+
+Basic Stuff
+
+-------------------------------- */
+
+html * {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*:after,
+*:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    background-color: #C8C8C8;
+    padding: 30px;
+    padding-top: 100px;
+}
+
+.bg-inverse {
+    color: #eceeef;
+    background-color: #373a3c;
+}
+
+
+/* -------------------------------- 
+
+Other Stuff
+
+-------------------------------- */
+
+.img-container {
+    /*	max-height: 300px;*/
+    /*	max-width: 300px;*/
+    /*	background-color: green;*/
+    position: static;
+    display: block;
+    float: left;
+}
+
+.button-box {
+    /*	background-color: yellow;*/
+    bottom: 0px;
+    position: absolute;
+    margin: 5px;
+}
+
+.button {
+    bottom: 5px;
+    height: 30px;
+    width: 100px;
+    display: block;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 5px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    cursor: pointer;
+}
+
+.saveButton {
+    background-color: #b3b3b3;
+    /*	position: fixed;*/
+    float: right;
+}
+
+.saveButton:hover {
+    background-color: #a6d9ff;
+}
+
+.nextButton {
+    background-color: #b3b3b3;
+    /*	position: fixed;*/
+    float: left;
+}
+
+.nextButton:hover {
+    background-color: #ffa6a6;
+}
+
+.marker {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 50%;
+    background-color: rgba(246, 77, 11, 0.69);
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    color: black;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.load-button {
+    /*margin: 5px;*/
+    height: inherit;
+    cursor: pointer;
+}
+
+.load {
+    height: 50px;
+    width: 50px;
+    color: green;
+}
+
+.load-stuff {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#tags {
+    float: right;
+    width: 300px;
+    /*background-color: #b3b3b3;*/
+    overflow: auto;
+    padding: 20px;
+    height: 100%;
+    max-height: 80vh;
+}
+
+#output {
+    /*max-width: 300px;*/
+    /*max-height: 300px;*/
+}
+
+.remMark {
+    height: 20px;
+    width: 20px;
+    float: right;
+    background-color: red;
+    cursor: pointer;
+}
+
+#delLast {
+    cursor: pointer;
+}
+
+#canvas {
+    /*width: 500px;*/
+    /*height: 500px;*/
+    background-color: green;
+    position: absolute;
+}
+
+.mBox {
+    border: 2px solid black !important;
+    background: rgba(255, 0, 0, 0.5);
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    font-weight: bold;
+}
+
+.toggle.btn {
+    display: block;
+}
+#probar{
+    margin-top: 15px;
+    margin-right: 50px;
+}
+div.progress-bar {
+    min-width: 30px;
+}
+.navbar-brand{
+    display: inline-block;
+}
+.stylish {
+    font-family: 'Pacifico', cursive;
+}
