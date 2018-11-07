@@ -350,7 +350,7 @@ var totalList = [];
 var boxMode = true;
 var imList = [];
 var scaleWarning=false;
-var scaleto = true;
+var scaleto = false;
 
 $('.modal').modal('show');
 
